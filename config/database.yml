@@ -1,23 +1,24 @@
 default: &default
   adapter: postgresql
-  encoding: unicode
+  #encoding: unicode
+  encoding: SQL_ASCII
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
-  database: railsapibase_development
-  username: railsapibase_user
-  password: railsapibase_pass
+  database: railstest_development
+  username: railstest_user
+  password: railstest_pass
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: railsapibase_test
-  username: railsapibase_user
-  password: railsapibase_pass
+  database: railstest_test
+  username: railstest_user
+  password: railstest_pass
 
 production:
   <<: *default

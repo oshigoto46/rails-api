@@ -1,0 +1,125 @@
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/puma-3.10.0/ext/puma_http11
+/root/.rbenv/versions/2.3.0/bin/ruby -I /root/.rbenv/versions/2.3.0/lib/ruby/site_ruby/2.3.0 -r ./siteconf20210211-15152-m4vmxb.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/puma-3.10.0/ext/puma_http11
+make DESTDIR\= clean
+
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/puma-3.10.0/ext/puma_http11
+make DESTDIR\=
+compiling http11_parser.c
+ext/puma_http11/http11_parser.c: 関数 ‘puma_parser_execute’ 内:
+ext/puma_http11/http11_parser.rl:38:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:40:1: 備考: here
+ext/puma_http11/http11_parser.rl:53:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:55:1: 備考: here
+ext/puma_http11/http11_parser.rl:38:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:40:1: 備考: here
+ext/puma_http11/http11_parser.rl:56:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:58:1: 備考: here
+ext/puma_http11/http11_parser.rl:38:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:40:1: 備考: here
+ext/puma_http11/http11_parser.c:245:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:247:1: 備考: here
+ext/puma_http11/http11_parser.c:252:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:254:1: 備考: here
+ext/puma_http11/http11_parser.c:259:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:261:1: 備考: here
+ext/puma_http11/http11_parser.c:266:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:268:1: 備考: here
+ext/puma_http11/http11_parser.c:273:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:275:1: 備考: here
+ext/puma_http11/http11_parser.c:282:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:284:1: 備考: here
+ext/puma_http11/http11_parser.c:289:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:291:1: 備考: here
+ext/puma_http11/http11_parser.rl:50:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:52:1: 備考: here
+ext/puma_http11/http11_parser.c:326:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:328:1: 備考: here
+ext/puma_http11/http11_parser.c:354:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:356:1: 備考: here
+ext/puma_http11/http11_parser.rl:42:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:44:1: 備考: here
+ext/puma_http11/http11_parser.rl:47:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:49:1: 備考: here
+ext/puma_http11/http11_parser.rl:47:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:49:1: 備考: here
+ext/puma_http11/http11_parser.rl:56:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:58:1: 備考: here
+ext/puma_http11/http11_parser.rl:38:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:40:1: 備考: here
+ext/puma_http11/http11_parser.rl:38:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:40:1: 備考: here
+ext/puma_http11/http11_parser.rl:38:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:40:1: 備考: here
+ext/puma_http11/http11_parser.rl:38:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:40:1: 備考: here
+ext/puma_http11/http11_parser.rl:72:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:74:1: 備考: here
+ext/puma_http11/http11_parser.rl:72:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:74:1: 備考: here
+ext/puma_http11/http11_parser.rl:61:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.rl:63:1: 備考: here
+ext/puma_http11/http11_parser.c:654:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:656:1: 備考: here
+ext/puma_http11/http11_parser.c:672:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:674:1: 備考: here
+ext/puma_http11/http11_parser.c:690:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:692:1: 備考: here
+ext/puma_http11/http11_parser.c:708:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:710:1: 備考: here
+ext/puma_http11/http11_parser.c:726:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:728:1: 備考: here
+ext/puma_http11/http11_parser.c:744:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:746:1: 備考: here
+ext/puma_http11/http11_parser.c:762:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:764:1: 備考: here
+ext/puma_http11/http11_parser.c:780:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:782:1: 備考: here
+ext/puma_http11/http11_parser.c:798:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:800:1: 備考: here
+ext/puma_http11/http11_parser.c:816:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:818:1: 備考: here
+ext/puma_http11/http11_parser.c:834:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:836:1: 備考: here
+ext/puma_http11/http11_parser.c:852:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:854:1: 備考: here
+ext/puma_http11/http11_parser.c:870:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:872:1: 備考: here
+ext/puma_http11/http11_parser.c:888:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:890:1: 備考: here
+ext/puma_http11/http11_parser.c:906:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:908:1: 備考: here
+ext/puma_http11/http11_parser.c:924:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:926:1: 備考: here
+ext/puma_http11/http11_parser.c:942:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:944:1: 備考: here
+ext/puma_http11/http11_parser.c:960:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:962:1: 備考: here
+ext/puma_http11/http11_parser.c:978:5: 警告: this statement may fall through [-Wimplicit-fallthrough=]
+ext/puma_http11/http11_parser.c:980:1: 備考: here
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c: 関数 ‘engine_init_server’ 内:
+mini_ssl.c:153:3: 警告: ISO C90 は宣言とコードの混合を禁止しています [-Wdeclaration-after-statement]
+   ID sym_cert = rb_intern("cert");
+   ^~
+mini_ssl.c:158:3: 警告: ISO C90 は宣言とコードの混合を禁止しています [-Wdeclaration-after-statement]
+   ID sym_ca = rb_intern("ca");
+   ^~
+mini_ssl.c:180:3: 警告: ISO C90 は宣言とコードの混合を禁止しています [-Wdeclaration-after-statement]
+   DH *dh = get_dh1024();
+   ^~
+mini_ssl.c:184:3: 警告: ISO C90 は宣言とコードの混合を禁止しています [-Wdeclaration-after-statement]
+   EC_KEY *ecdh = EC_KEY_new_by_curve_name(NID_secp521r1);
+   ^~~~~~
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/puma-3.10.0/ext/puma_http11
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20210211-15152-vil32o/puma

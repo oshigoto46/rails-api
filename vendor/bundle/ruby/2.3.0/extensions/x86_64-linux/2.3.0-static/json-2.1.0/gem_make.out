@@ -1,0 +1,13 @@
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+/root/.rbenv/versions/2.3.0/bin/ruby -I /root/.rbenv/versions/2.3.0/lib/ruby/site_ruby/2.3.0 -r ./siteconf20210211-15152-1nhcg7k.rb extconf.rb
+creating Makefile
+
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make DESTDIR\= clean
+
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make DESTDIR\=
+make: `all' に対して行うべき事はありません.
+
+current directory: /root/RailsTest/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make DESTDIR\= install
