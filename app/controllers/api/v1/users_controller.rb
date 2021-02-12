@@ -1,9 +1,13 @@
 module Api
   module V1
     class UsersController < ApiController
-      skip_before_action :auth_with_token!, only: [:create, :reset_password]
+      #skip_before_action :auth_with_token!, only: [:create, :reset_password]
 
       def create
+        logger.inco("=============hogehogehoge")
+        logger.debug("=============hogehogehoge")
+        logger.debug("=============hogehogehoge")
+
         if correct_secret_api_key?
           user = User.new(user_params)
           if user.save
@@ -15,6 +19,12 @@ module Api
       end
 
       def destroy
+        logger.info("=============hogehogehoge")
+        logger.debug("=============hogehogehoge")
+        logger.debug("=============hogehogehoge")
+        STDOUT.puts ("hogehogehogehogehogehoge")
+        STDOUT.puts ("hogehogehogehogehogehoge")
+        STDOUT.puts ("hogehogehogehogehogehoge")
         current_user.notes.destroy_all
         current_user.destroy
         head :no_content

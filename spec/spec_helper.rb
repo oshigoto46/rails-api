@@ -19,6 +19,9 @@ Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
+Rails.logger = Logger.new(STDOUT) # Rails.loggerを出す
+ActiveRecord::Base.logger = Logger.new(STDOUT) # SQLログ出す
+
 RSpec.configure do |config|
   # ## Mock Framework
   #

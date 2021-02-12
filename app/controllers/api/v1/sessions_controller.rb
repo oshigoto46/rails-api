@@ -4,9 +4,11 @@ module Api
       skip_before_action :auth_with_token!, only: [:create]
 
       def create
+        logger.debug ("hogecreate")
         user = login_user
         if user
-          render json: user, status: :ok
+          render :json => { email: user['email'], auth_token: user['auth_token'], status: 'ok'}
+          #render json: user, status: :ok
         else
           render_error(I18n.t('authentication.error',
                               authentication_keys: 'email'),
@@ -15,6 +17,7 @@ module Api
       end
 
       def destroy
+        logger.info("=============hogehogehogefuga")
         current_user.regenerate_auth_token
         head :no_content
       end
@@ -24,6 +27,7 @@ module Api
       def login_user
         user = User.find_by_email(params[:user][:email])
         if user && user.authenticate(params[:user][:password])
+          STDOUT.puts(user['auth_token'],)
           user.regenerate_auth_token
           user
         end

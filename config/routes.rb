@@ -11,8 +11,11 @@ Rails.application.routes.draw do
   scope module: :api, defaults: { format: :json }  do
     scope module: :v1, constraints: ApiConstraints.new(version: 1,
                                                        default: true) do
+     
       get    'versions/state'       => 'versions#state'
       post   'users/login'          => 'sessions#create'
+      post   'posts'                => 'posts#create'
+      get    'posts'                => 'posts#index'
       delete 'users/logout'         => 'sessions#destroy'
       post   'users/reset_password' => 'users#reset_password'
       resources :users, only: [:create, :destroy]
@@ -25,4 +28,5 @@ Rails.application.routes.draw do
                                      as: 'users_confirm_reset'
   get 'privacy',                     to: 'pages#privacy'
   get 'terms',                       to: 'pages#terms'
+  post'likes',                       to: 'likes#create'
 end

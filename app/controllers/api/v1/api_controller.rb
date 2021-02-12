@@ -3,7 +3,7 @@ module Api
     class ApiController < ApplicationController
       include ::ActionController::Serialization
 
-      include Concerns::Authenticator
+      #include Concerns::Authenticator
       include Concerns::ErrorHandler
       include Concerns::VersionExpirationHandler
       include Concerns::Internationalizator
